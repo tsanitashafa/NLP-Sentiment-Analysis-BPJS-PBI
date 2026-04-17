@@ -68,4 +68,4 @@ struktur linguistik, serta kecenderungan sentimen media terhadap BPJS PBI.
 
 ---
 
-✳️ *Departemen Sistem Informasi — Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC) — Institut Teknologi Sepuluh Nopember, 2025*
+✳️ *Departemen Sistem Informasi — Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC) — Institut Teknologi Sepuluh Nopember, 2026*
