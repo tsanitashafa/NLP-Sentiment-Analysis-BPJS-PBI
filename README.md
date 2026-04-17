@@ -58,7 +58,6 @@ struktur linguistik, serta kecenderungan sentimen media terhadap BPJS PBI.
 - Klasifikasi sentimen: Positif, Netral, Negatif
 - Visualisasi distribusi sentimen
 
----
 
 ## 📊 Output Project A
 - Wordcloud global
