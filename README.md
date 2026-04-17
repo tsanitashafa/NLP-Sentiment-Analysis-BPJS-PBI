@@ -28,14 +28,12 @@ Project A berfokus pada analisis teks berita nasional mengenai **BPJS PBI**
 menggunakan pendekatan NLP. Analisis dilakukan untuk mengidentifikasi kata kunci dominan,
 struktur linguistik, serta kecenderungan sentimen media terhadap BPJS PBI.
 
----
 
 ## 🎯 Tujuan Project A
 - Mengidentifikasi kata dan topik dominan dalam pemberitaan BPJS PBI
 - Menganalisis kecenderungan sentimen media secara umum  terhadap BPJS PBI
 - Memahami framing media terhadap citra dan reputasi BPJS PBI  
 
----
 
 ## ⚙️ Metodologi Project A
 
