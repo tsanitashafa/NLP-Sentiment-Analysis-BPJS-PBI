@@ -1,10 +1,7 @@
 # 🧠 Project A dan Project B Group 8  
 **Analisis Sentimen dan TF-IDF pada Artikel Berita tentang BPJS PBI**
 
-📄 Laporan Lengkap Project A: [Klik di sini untuk melihat laporan Project A (PDF)](link)
-
-📄 Laporan Lengkap Project B: [Klik di sini untuk melihat laporan Project B (PDF)](link).
-
+📄 Laporan Lengkap Project A: [Click Here](link)
 ---
 
 ## 👥 Anggota Kelompok
