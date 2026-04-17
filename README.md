@@ -18,7 +18,6 @@
 
 # 📘 PROJECT A  
 ## Analisis Sentimen dan TF-IDF pada Artikel Berita tentang BPJS PBI dengan Pendekatan Natural Language Processing (NLP)
----
 
 ## 📚 Deskripsi Project A
 Project A berfokus pada analisis teks berita nasional mengenai **BPJS PBI**
