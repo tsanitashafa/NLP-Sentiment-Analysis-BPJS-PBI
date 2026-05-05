@@ -1,70 +1,102 @@
-# 🧠 Project A dan Project B Group 8  
-**Analisis Sentimen dan TF-IDF pada Artikel Berita tentang BPJS PBI**
+# 🧠 Project A - Group 8
 
-📄 Laporan Lengkap Project A: [Click Here](link)
+**Sentiment Analysis and TF-IDF on News Articles about BPJS PBI**
+
+[![PDF](https://img.shields.io/badge/Report-PDF-red)](./Kelompok%208%20PBA_Paper.pdf)
+[![Notebook](https://img.shields.io/badge/Notebook-Jupyter-orange)](./Notebook)
+
 ---
 
-## 👥 Anggota Kelompok
-| Nama | NRP |
+## 👥 Team Members
+| Name | NRP |
 |------|-----|
 | **Tsanita Shafa Hadinanda** | 5026231088 |
 | **Amandea Chandiki Larasati** | 5026231139 |
 | **Sultan Alamsyah Lintang Mubarok** | 5026231188 |
-| **Muhammad Ikhwanul Hafidz** | 5026231192 |
 | **Emriqurrizal Yahya Nurramadhan** | 5026231001 |
 | **Alexander Allan** | 5026231050 |
+| **Muhammad Ikhwanul Hafidz** | 5026231192 |
 
 ---
 
-# 📘 PROJECT A  
-## Analisis Sentimen dan TF-IDF pada Artikel Berita tentang BPJS PBI dengan Pendekatan Natural Language Processing (NLP)
+## 📘 Project A
 
-## 📚 Deskripsi Project A
-Project A berfokus pada analisis teks berita nasional mengenai **BPJS PBI**
-menggunakan pendekatan NLP. Analisis dilakukan untuk mengidentifikasi kata kunci dominan,
-struktur linguistik, serta kecenderungan sentimen media terhadap BPJS PBI.
+### Description
+Project A focuses on analyzing national news articles about **BPJS PBI**, aiming to:
+- Identify key terms and main issues using **TF-IDF**
+- Map media sentiment toward BPJS PBI
+- Recognize important actors and locations via **NER**
+- Analyze linguistic patterns using **POS Tagging**
 
+The dataset was collected manually and via scraping, followed by comprehensive preprocessing including cleaning, tokenization, stopword removal, lemmatization, and data augmentation.
 
-## 🎯 Tujuan Project A
-- Mengidentifikasi kata dan topik dominan dalam pemberitaan BPJS PBI
-- Menganalisis kecenderungan sentimen media secara umum  terhadap BPJS PBI
-- Memahami framing media terhadap citra dan reputasi BPJS PBI  
-
-
-## ⚙️ Metodologi Project A
-
-### 1. Data Akuisisi
-- Total artikel: **N = 600**
-- Bahasa artikel: **Indonesia (ID)**
-- Sumber: Antara News, Tempo, BBC, CNBC, dan media nasional lainnya
-- Periode pengambilan data ditentukan secara manual
-
-### 2. Preprocessing Teks
-- Pembersihan HTML dan karakter khusus
-- Tokenisasi teks
-- Stopword removal
-- Lemmatization menggunakan `NLTK`
-
-### 3. Feature Extraction (TF-IDF)
-- Menggunakan `TfidfVectorizer`
-- Identifikasi kata dominan seperti *BPJS, PBI, kesehatan, pasien*
-
-### 4. Analisis Linguistik
-- POS Tagging
-- Named Entity Recognition (NER)
-- Tools: `spaCy`
-
-### 5. Analisis Sentimen (Lexicon / Rule-based)
-- Klasifikasi sentimen: Positif, Netral, Negatif
-- Visualisasi distribusi sentimen
-
-
-## 📊 Output Project A
-- Wordcloud global
-- Wordcloud per kategori berita
-- Distribusi sentimen
-- Analisis kata dominan
+### Objectives
+1. Classify article sentiment: **Positive, Negative, Neutral**
+2. Identify key topics and trends via **TF-IDF**
+3. Recognize important entities (organization, location, individual) using **NER**
+4. Analyze linguistic structure and patterns using **POS Tagging**
 
 ---
 
-✳️ *Departemen Sistem Informasi — Fakultas Teknologi Elektro dan Informatika Cerdas (FTEIC) — Institut Teknologi Sepuluh Nopember, 2026*
+## ⚙️ Methodology
+
+### 1. Data Acquisition
+- Total articles: **605 out of 615 links**
+- Sources: Tempo, Antara, Kompas, Liputan6, Detik, CNN, etc.
+- Article categories: Policy, Social, Service, Economy, Opinion
+
+### 2. Preprocessing
+- Cleaning: lowercase, remove symbols/numbers, normalization
+- Tokenization & Stopword removal
+- Lemmatization & Stemming
+- Augmentation: Synonym Replacement, Back Translation
+
+### 3. Feature Extraction
+- **TF-IDF Vectorizer**
+- Wordcloud & N-Gram visualizations
+
+### 4. Linguistic Analysis
+- **POS Tagging**: noun, verb, adjective, etc.
+- **NER**: organization, location, individual
+
+### 5. Sentiment Analysis
+- Classic models: Logistic Regression + TF-IDF, SVM + TF-IDF
+- Modern models: SVM + BERT, Logistic Regression + BERT, BERT Fine-Tuning
+- Evaluation metrics: Accuracy, F1-Score
+
+---
+
+## 📊 Key Results
+- Sentiment distribution: Positive, Negative, Neutral
+- Top 10 sources: Tempo, Antara, Kompas, Liputan6, Detik, CNN, etc.
+- Top TF-IDF keywords: BPJS, PBI, service, community, reactivation
+- Dominant POS: noun
+- Top entity (NER): 'bpjs'
+- Model performance (Accuracy):
+  - **BERT Fine-Tuning**: 0.79
+  - **TF-IDF + SVM**: 0.74
+  - **Embedding + SVM**: 0.73
+  - **TF-IDF + Logistic Regression**: 0.72
+  - **Embedding + Logistic Regression**: 0.71
+
+---
+
+## 📂 Folder Structure
+```text
+.
+├── Dataset General/
+├── Dataset Individu/
+│   ├── Alam/
+│   ├── Allan/
+│   ├── Chandiki/
+│   ├── Emriq/
+│   ├── Hafidz/
+│   └── Shafa/
+├── image/
+├── Notebook/
+├── Kelompok 8 PBA_Paper.pdf
+└── README.md
+```
+
+
+✳️ _Department of Information Systems — Faculty of Electrical and Intelligent Informatics Technology (FTEIC) — Sepuluh Nopember Institute of Technology, 2026_
